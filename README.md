@@ -46,7 +46,7 @@ python train.py
 ```
 This will dump `data.pth` file. And then run
 ```console
-python chat.py
+python app.py
 ```
 ## Customize
 Have a look at [intents.json](intents.json). You can customize it according to your own use case. Just define a new `tag`, possible `patterns`, and possible `responses` for the chat bot. You have to re-run the training whenever this file is modified.
